@@ -3,7 +3,7 @@
 /**
  * get_specifier - finds format function
  * @s: format
- * Return: the number of bytes printed
+ * Return: number of bytes printed
  */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
