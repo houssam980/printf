@@ -5,6 +5,9 @@
  * @s: format
  * Return: number of bytes printed
  */
+
+
+
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
 specifier_t specifiers[] = {
@@ -60,6 +63,7 @@ return (0);
  */
 int get_flag(char *s, params_t *params)
 {
+/*switch num_1*/
 int i = 0;
 switch (*s)
 {
@@ -89,6 +93,7 @@ return (i);
  */
 int get_modifier(char *s, params_t *params)
 {
+/*switch num_2*/
 int i = 0;
 switch (*s)
 {
@@ -125,4 +130,3 @@ d = d * 10 + (*s++ - '0');
 params->width = d;
 return (s);
 }
-

@@ -9,7 +9,6 @@ int _isdigit(int c)
 {
 return (c >= '0' && c <= '9');
 }
-
 /**
  * _strlen - returns the length of a string
  * @s: string whose length to check
@@ -23,7 +22,6 @@ while (*s++)
 i++;
 return (i);
 }
-
 /**
  * print_number - prints a number
  * @str: base
@@ -94,6 +92,12 @@ n += _puts(str);
 return (n);
 }
 
+
+
+
+
+
+
 /**
  * print_number_left_shift - prints a number with options
  * @str: the base number as a string
@@ -121,4 +125,3 @@ while (i++ < params->width)
 n += _putchar(pad_char);
 return (n);
 }
-

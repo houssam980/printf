@@ -32,4 +32,3 @@ if (c != BUF_FLUSH)
 buf[lp++] = c;
 return (1);
 }
-

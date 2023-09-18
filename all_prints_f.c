@@ -73,5 +73,3 @@ i++;
 }
 return (counter);
 }
-
-

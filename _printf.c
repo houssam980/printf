@@ -44,5 +44,3 @@ _putchar(BUF_FLUSH);
 va_end(ap);
 return (s);
 }
-
-
