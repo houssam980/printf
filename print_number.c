@@ -12,7 +12,7 @@ return (c >= '0' && c <= '9');
 /**
  * _strlen - returns the length of a string
  * @s: string whose length to check
- * Return: integer length of string
+ * Return: the integer length of string
  */
 int _strlen(char *s)
 {
