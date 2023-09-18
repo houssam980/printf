@@ -4,7 +4,7 @@
  * print_from_to - prints a range of char
  * @start: start
  * @stop: stop
- * @except: except
+ * @except: except rz
  * Return: number bytes printed
  */
 int print_from_to(char *start, char *stop, char *except)
