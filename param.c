@@ -3,7 +3,7 @@
 /**
  * init_params - params
  * @params: parameters 
- * @ap: the argument
+ * @ap: argument
  * Return: nothing to return
  */
 void init_params(params_t *params, va_list ap)
