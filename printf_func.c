@@ -23,7 +23,7 @@ return (sum);
  * print_int - prints int
  * @ap: argument
  * @params: parameters
- * Return: number int printed
+ * Return: the number int printed
  */
 int print_int(va_list ap, params_t *params)
 {
