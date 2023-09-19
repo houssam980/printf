@@ -64,26 +64,26 @@ return (0);
 int get_flag(char *s, params_t *params)
 {
 /*switch num_1*/
-int i = 0;
+int lp = 0;
 switch (*s)
 {
 case '+':
-i = params->plus_flag = 1;
+lp = params->plus_flag = 1;
 break;
 case ' ':
-i = params->space_flag = 1;
+lp = params->space_flag = 1;
 break;
 case '#':
-i = params->hashtag_flag = 1;
+lp = params->hashtag_flag = 1;
 break;
 case '-':
-i = params->minus_flag = 1;
+lp = params->minus_flag = 1;
 break;
 case '0':
-i = params->zero_flag = 1;
+lp = params->zero_flag = 1;
 break;
 }
-return (i);
+return (lp);
 }
 /**
  * get_modifier - finds the modifier func
@@ -94,17 +94,17 @@ return (i);
 int get_modifier(char *s, params_t *params)
 {
 /*switch num_2*/
-int i = 0;
+int lp_1 = 0;
 switch (*s)
 {
 case 'h':
-i = params->h_modifier = 1;
+lp_1 = params->h_modifier = 1;
 break;
 case 'l':
-i = params->l_modifier = 1;
+lp_1 = params->l_modifier = 1;
 break;
 }
-return (i);
+return (lp_1);
 }
 
 /**
